@@ -34,7 +34,7 @@ app.post("/",function(req,res){
 
   const jsonData = JSON.stringify(data);
 
-const url = "https://us1.api.mailchimp.com/3.0/lists/a2cf48b93d";
+const url = "https://us1.api.mailchimp.com/3.0/lists/(list key was hidden) ";
 const options = {
   method : "POST",
   auth: "burak4:(Api key was hidden for security) 
