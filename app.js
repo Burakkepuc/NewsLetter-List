@@ -37,7 +37,7 @@ app.post("/",function(req,res){
 const url = "https://us1.api.mailchimp.com/3.0/lists/a2cf48b93d";
 const options = {
   method : "POST",
-  auth: "burak4:fd6e3c61f485e743be6e842b60dbcd61-us1"
+  auth: "burak4:(Api key was hidden for security) 
 }
 
 const request = https.request(url,options,function(response){
@@ -69,8 +69,6 @@ app.listen(process.env.PORT || 3000,function(){
   console.log("App is listening");
 })
 
-//API KEY
-// fd6e3c61f485e743be6e842b60dbcd61-us1
 
-//List ID
-// a2cf48b93d
+
+
